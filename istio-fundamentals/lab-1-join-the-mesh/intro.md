@@ -1,6 +1,8 @@
 Part of **Istio Fundamentals**, the free course by [AlmaShift](https://almashift.com).
 Watch the lessons at [learn.almashift.com](https://learn.almashift.com).
 
+**In this lab:** Put every workload of a running store into the Istio mesh, without downtime.
+
 You get a real Kubernetes cluster for this session. While you read this, the terminal
 on the right is installing **Istio 1.27** and the **MeshMart** example store
 (about a minute).

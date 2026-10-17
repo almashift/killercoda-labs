@@ -1,6 +1,6 @@
 {
   "title": "Lab 1 - Bring MeshMart into the mesh",
-  "description": "Istio Fundamentals by AlmaShift: put every workload of a running store into the Istio mesh, without downtime.",
+  "description": "Put every workload of a running store into the Istio mesh, without downtime.",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
@@ -11,7 +11,7 @@
     },
     "steps": [
       {
-        "title": "Put every MeshMart workload in the mesh",
+        "title": "Bring MeshMart into the mesh",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       }

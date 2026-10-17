@@ -1,5 +1,12 @@
 {
   "items": [
-    { "path": "lab-1-join-the-mesh" }
+    { "path": "lab-1-join-the-mesh" },
+    { "path": "lab-2-access-logging" },
+    { "path": "lab-3-gateway-api-ingress" },
+    { "path": "lab-4-canary-catalog" },
+    { "path": "lab-5-timeouts-retries" },
+    { "path": "lab-6-strict-mtls" },
+    { "path": "lab-7-authorization" },
+    { "path": "lab-8-fix-the-store" }
   ]
 }

@@ -1,0 +1,9 @@
+#n	difficulty	next_lesson	next_title	description
+1	Beginner	2-3	Customising and upgrading Istio	Put every workload of a running store into the Istio mesh, without downtime.
+2	Beginner	3-1	Letting users in: the Gateway API	Turn on Envoy access logs for the whole mesh with the Telemetry API.
+3	Intermediate	3-2	Routing with VirtualService and DestinationRule	Open the store to customers through an Istio gateway, with Gateway API host and path routing.
+4	Intermediate	3-4	Handling failure	Send 10% of catalog traffic to v2 with a DestinationRule and a VirtualService.
+5	Intermediate	3-5	Reaching the outside world	Keep the store fast while catalog hangs, with per-try timeouts and retries.
+6	Intermediate	4-2	Authorization policies	Enforce strict mTLS across the store, with one explicit exception for a legacy client.
+7	Intermediate	4-3	JWT and edge TLS: a first look	Let only web read catalog, with an AuthorizationPolicy based on workload identity.
+8	Intermediate	5-2	Seeing everything: metrics, tracing and Kiali	Find and fix two faults that break the store, with istioctl's troubleshooting tools.

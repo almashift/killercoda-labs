@@ -1,0 +1,31 @@
+{
+  "title": "Lab 4 - Canary catalog v2 at 90/10",
+  "description": "Send 10% of catalog traffic to v2 with a DestinationRule and a VirtualService.",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Canary catalog v2 at 90/10",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "almashift-wait", "target": "/usr/local/bin", "chmod": "+x" }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}

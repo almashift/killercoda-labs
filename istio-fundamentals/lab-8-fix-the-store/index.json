@@ -1,0 +1,31 @@
+{
+  "title": "Lab 8 - Fix the broken store (troubleshooting)",
+  "description": "Find and fix two faults that break the store, with istioctl's troubleshooting tools.",
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Fix the broken store (troubleshooting)",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "almashift-wait", "target": "/usr/local/bin", "chmod": "+x" }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}

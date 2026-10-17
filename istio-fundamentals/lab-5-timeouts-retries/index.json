@@ -1,0 +1,31 @@
+{
+  "title": "Lab 5 - Keep checkout fast (timeouts and retries)",
+  "description": "Keep the store fast while catalog hangs, with per-try timeouts and retries.",
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Keep checkout fast (timeouts and retries)",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "almashift-wait", "target": "/usr/local/bin", "chmod": "+x" }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}
