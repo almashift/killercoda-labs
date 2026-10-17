@@ -20,6 +20,10 @@ cd /root/istio-fundamentals
 INSTALL_KIND=0 bash setup/install-tools.sh   # Killercoda provides the cluster; no kind needed
 bash setup/ensure-cluster.sh                 # without kind: waits for the node, installs Istio
 
+# One scenario = one lab: `lab` hides and refuses the others in this session.
+mkdir -p .lab-state
+basename labs/"$(printf '%02d' "$LAB")"-* > .lab-state/session-lab
+
 echo ">> Starting lab $LAB (deploying MeshMart)"
 lab start "$LAB"
 touch "$READY"
