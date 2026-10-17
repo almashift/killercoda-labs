@@ -23,7 +23,7 @@ if [ -f "$FAILED" ]; then
   echo "Reload the page to get a fresh machine and try again."
 else
   clear
-  echo "Your lab is ready. Follow the task on the left; run 'lab check 1' to grade your work."
+  echo "Your lab is ready. Follow the task on the left; run 'lab check' to grade your work."
   echo
   kubectl -n meshmart get pods
 fi

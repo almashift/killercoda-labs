@@ -9,7 +9,11 @@ not here.
 
 | Scenario | Lab |
 |---|---|
-| `istio-fundamentals/01-join-the-mesh` | Lab 1 - Bring MeshMart into the mesh |
+| `istio-fundamentals/lab-1-join-the-mesh` | Lab 1 - Bring MeshMart into the mesh |
 
 Debug a scenario: the setup log is `/tmp/almashift-setup.log` and the last CHECK output is
 `/tmp/almashift-check.log` on the scenario machine.
+
+Scenario folders are named `lab-<n>-<slug>`: the folder name is the public URL
+(killercoda.com/almashift/course/istio-fundamentals/lab-1-join-the-mesh), and
+`istio-fundamentals/structure.json` sets the order labs appear in. Add each new lab there.

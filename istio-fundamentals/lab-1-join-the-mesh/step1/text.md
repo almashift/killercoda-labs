@@ -37,10 +37,10 @@ kubectl -n meshmart exec deploy/loadgen -- curl -s localhost:8080/stats
 Run the grader to see each check (it watches the store's traffic for about 15 seconds):
 
 ```
-lab check 1
+lab check
 ```{{exec}}
 
 When every check passes, click **CHECK** below to complete the lab
-(it confirms that `lab check 1` has passed).
+(it confirms that `lab check` has passed).
 
-Stuck? `lab hint 1`{{exec}} reveals one hint at a time.
+Stuck? `lab hint`{{exec}} reveals one hint at a time.

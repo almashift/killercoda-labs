@@ -11,7 +11,7 @@ and the store still serves its shoppers.
 - ✅ **Kept the store up**: a rolling restart replaces pods one at a time, and the grader
   confirmed `loadgen`'s requests still succeed now that every call goes through Envoy
 
-Want the reasoning behind each step? Run `lab solution 1`{{exec}}.
+Want the reasoning behind each step? Run `lab solution`{{exec}}.
 
 ---
 
