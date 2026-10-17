@@ -40,6 +40,7 @@ Run the grader to see each check (it watches the store's traffic for about 15 se
 lab check 1
 ```{{exec}}
 
-When everything passes, click **CHECK** below to complete the lab.
+When every check passes, click **CHECK** below to complete the lab
+(it confirms that `lab check 1` has passed).
 
 Stuck? `lab hint 1`{{exec}} reveals one hint at a time.

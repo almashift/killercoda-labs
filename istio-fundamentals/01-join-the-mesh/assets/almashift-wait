@@ -1,5 +1,5 @@
 #!/bin/bash
-# Foreground script: runs in the student's terminal and shows setup progress until it finishes.
+# Installed as an asset; foreground.sh runs it in the student's terminal and shows setup progress until it finishes.
 LOG=/tmp/almashift-setup.log
 READY=/tmp/almashift-ready
 FAILED=/tmp/almashift-failed
@@ -22,7 +22,6 @@ if [ -f "$FAILED" ]; then
   tail -n 20 "$LOG"
   echo "Reload the page to get a fresh machine and try again."
 else
-  cd /root/istio-fundamentals
   clear
   echo "Your lab is ready. Follow the task on the left; run 'lab check 1' to grade your work."
   echo

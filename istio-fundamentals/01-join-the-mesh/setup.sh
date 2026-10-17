@@ -1,7 +1,7 @@
 #!/bin/bash
 # Background script: runs as root when the scenario starts, while the student reads the intro.
 # Everything comes from the public labs repo, so the lab itself is maintained in one place.
-# Progress goes to $LOG; wait.sh shows its ">>" lines and waits for $READY or $FAILED.
+# Progress goes to $LOG; almashift-wait (an asset) shows its ">>" lines and waits for $READY or $FAILED.
 LOG=/tmp/almashift-setup.log
 READY=/tmp/almashift-ready
 FAILED=/tmp/almashift-failed

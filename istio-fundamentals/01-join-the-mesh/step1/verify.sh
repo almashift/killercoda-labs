@@ -1,4 +1,5 @@
 #!/bin/bash
-# The CHECK button: passes when the same grader students run with `lab check 1` passes.
-[ -f /tmp/almashift-ready ] || exit 1
-lab check 1 >/tmp/almashift-check.log 2>&1
+# The CHECK button. Killercoda gives verify scripts only a few seconds, and the grader watches
+# traffic for ~15s, so students grade with `lab check 1` in the terminal (which records a pass)
+# and CHECK only confirms that record. `lab start 1` clears it.
+[ -f /root/istio-fundamentals/.lab-state/01-join-the-mesh.passed ]
