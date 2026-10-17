@@ -21,6 +21,6 @@ Run `lab solution 1`{{exec}} for the reasoning behind each step.
 
 ### ▶ Continue the course
 
-**[Back to Istio Fundamentals on AlmaShift →](https://learn.almashift.com/lms/courses/istio-fundamentals)**
+**[Next lesson: Customising and upgrading Istio →](https://learn.almashift.com/lms/courses/istio-fundamentals/learn/2-3)**
 
-Next up: **Customising and upgrading Istio**.
+Or see the [whole Istio Fundamentals course](https://learn.almashift.com/lms/courses/istio-fundamentals) on AlmaShift.
