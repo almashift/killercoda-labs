@@ -1,9 +1,9 @@
-![AlmaShift](https://www.almashift.com/apple-touch-icon.png)
+![AlmaShift](https://www.almashift.com/favicon.ico)
 
 # 🎉 Lab 01 complete!
 
 MeshMart is in the mesh. Every pod runs an Envoy sidecar, istiod configures them all,
-and the store never stopped serving its shoppers.
+and the store still serves its shoppers.
 
 ### What you did
 
@@ -13,14 +13,11 @@ and the store never stopped serving its shoppers.
 - ✅ **Kept the store up**: a rolling restart replaces pods one at a time, and the grader
   confirmed `loadgen`'s requests still succeed now that every call goes through Envoy
 
-### Go deeper
-
-Run `lab solution 1`{{exec}} for the reasoning behind each step.
+Want the reasoning behind each step? Run `lab solution 1`{{exec}}.
 
 ---
 
-### ▶ Continue the course
+### What's next
 
-**[Next lesson: Customising and upgrading Istio →](https://learn.almashift.com/lms/courses/istio-fundamentals/learn/2-3)**
-
-Or see the [whole Istio Fundamentals course](https://learn.almashift.com/lms/courses/istio-fundamentals) on AlmaShift.
+1. **[Continue with the next lesson: Customising and upgrading Istio](https://learn.almashift.com/lms/courses/istio-fundamentals/learn/2-3)**
+2. Browse the [full Istio Fundamentals course](https://learn.almashift.com/lms/courses/istio-fundamentals) on AlmaShift
