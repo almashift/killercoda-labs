@@ -17,9 +17,8 @@ echo ">> Downloading the AlmaShift labs"
 git clone --quiet --depth 1 --branch "$REF" "$REPO" /root/istio-fundamentals
 cd /root/istio-fundamentals
 
-bash setup/install-tools.sh
-kubectl wait --for=condition=Ready node --all --timeout=300s
-bash setup/istio-install.sh
+INSTALL_KIND=0 bash setup/install-tools.sh   # Killercoda provides the cluster; no kind needed
+bash setup/ensure-cluster.sh                 # without kind: waits for the node, installs Istio
 
 echo ">> Starting lab $LAB (deploying MeshMart)"
 lab start "$LAB"
