@@ -5,7 +5,7 @@ READY=/tmp/almashift-ready
 FAILED=/tmp/almashift-failed
 
 clear
-echo "Preparing your lab: Istio and the MeshMart store (about 2-3 minutes)..."
+echo "Preparing your lab: Istio and the MeshMart store (about a minute)..."
 shown=0
 until [ -f "$READY" ] || [ -f "$FAILED" ]; do
   n="$(grep -c '^>>' "$LOG" 2>/dev/null || true)"
