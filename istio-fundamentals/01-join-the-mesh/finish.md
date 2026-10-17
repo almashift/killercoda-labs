@@ -10,8 +10,8 @@ and the store never stopped serving its shoppers.
 - ✅ **Labelled the namespace** with `istio-injection=enabled`, so every new pod in
   `meshmart` gets a sidecar
 - ✅ **Restarted the Deployments**, so each pod came back with `istio-proxy` (`2/2`)
-- ✅ **Kept the store up**: a rolling restart replaces pods one at a time, which is why
-  `loadgen` saw no failed requests
+- ✅ **Kept the store up**: a rolling restart replaces pods one at a time, and the grader
+  confirmed `loadgen`'s requests still succeed now that every call goes through Envoy
 
 ### Go deeper
 
