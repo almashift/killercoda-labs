@@ -1,0 +1,26 @@
+{
+  "title": "Lab 01 - Bring MeshMart into the mesh",
+  "description": "Istio Fundamentals by AlmaShift: put every workload of a running store into the Istio mesh, without downtime.",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh",
+      "foreground": "wait.sh"
+    },
+    "steps": [
+      {
+        "title": "Put every MeshMart workload in the mesh",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}
