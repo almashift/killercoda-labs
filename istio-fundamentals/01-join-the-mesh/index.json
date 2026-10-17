@@ -1,5 +1,5 @@
 {
-  "title": "Lab 01 - Bring MeshMart into the mesh",
+  "title": "Lab 1 - Bring MeshMart into the mesh",
   "description": "Istio Fundamentals by AlmaShift: put every workload of a running store into the Istio mesh, without downtime.",
   "difficulty": "Beginner",
   "time": "15 minutes",

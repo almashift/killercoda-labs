@@ -9,7 +9,7 @@ not here.
 
 | Scenario | Lab |
 |---|---|
-| `istio-fundamentals/01-join-the-mesh` | Lab 01 - Bring MeshMart into the mesh |
+| `istio-fundamentals/01-join-the-mesh` | Lab 1 - Bring MeshMart into the mesh |
 
 Debug a scenario: the setup log is `/tmp/almashift-setup.log` and the last CHECK output is
 `/tmp/almashift-check.log` on the scenario machine.

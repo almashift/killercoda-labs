@@ -1,6 +1,4 @@
-![AlmaShift](https://www.almashift.com/favicon.ico)
-
-# 🎉 Lab 01 complete!
+# ![AlmaShift](https://www.almashift.com/favicon.ico) Lab 1 complete! 🎉
 
 MeshMart is in the mesh. Every pod runs an Envoy sidecar, istiod configures them all,
 and the store still serves its shoppers.
